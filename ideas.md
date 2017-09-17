@@ -16,5 +16,6 @@ There will be 'Chapters', and every Chapter will have 'Scenes'.
 Players will be able to type 'look' or 'look around' to get a narration of where they are and what is around them.
 
 
+## Mechanics
 
-
+I imagine that looking around will be simple enough. There will have to be triggers of course that break the scene, such as turning on the radio. 

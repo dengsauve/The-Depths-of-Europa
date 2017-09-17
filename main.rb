@@ -1,38 +1,39 @@
 # by dennis sauve (c) 2017
 
-# Splash should probably go here
-
 # load chapter 1, scene 1
 
 # Extend the Array class for readability in describing scenes
+
+require_relative 'utils'
+
 class Array
 
   def describe
-    return self[1]
+    return self[1] + "\n"
   end
 
   def right
-    return self[2]
+    return self[2] + "\n"
   end
 
   def forward
-    return self[3]
+    return self[3] + "\n"
   end
 
   def left
-    return self[4]
+    return self[4] + "\n"
   end
 
   def back
-    return self[5]
+    return self[5] + "\n"
   end
 
   def up
-    return self[6]
+    return self[6] + "\n"
   end
 
   def down
-    return self[7]
+    return self[7] + "\n"
   end
 
 end
@@ -44,10 +45,16 @@ def load_scene(chapter, scene)
 end
 
 def main()
+  # Splash should probably go here
+  puts splash
+  puts 'press enter to start'
+  gets.chomp()
+
   scene = load_scene('one', 'one')
   puts scene.describe
   while true
     input = gets.chomp()
+    puts
     case input
       when 'right', 'look right'
         puts scene.right

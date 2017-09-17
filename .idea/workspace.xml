@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05eaec2-2ee5-48b5-b605-f3151c7bda45" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ideas.md" afterPath="$PROJECT_DIR$/ideas.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.rb" afterPath="$PROJECT_DIR$/main.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/The_Depths_of_Europa@main.coverage" NAME="main Coverage Results" MODIFIED="1505687245430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="The-Depths-of-Europa" />
+    <SUITE FILE_PATH="coverage/The_Depths_of_Europa@main.coverage" NAME="main Coverage Results" MODIFIED="1505690017617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="The-Depths-of-Europa" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -32,8 +34,18 @@
       <file leaf-file-name="main.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+            <state relative-caret-position="1275">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,12 +74,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ideas.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ideas.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ideas.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="357">
-                <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="20" selection-end-column="146" />
+                <caret line="20" column="131" lean-forward="true" selection-start-line="20" selection-start-column="131" selection-end-line="20" selection-end-column="131" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -100,8 +112,9 @@
         <option value="$PROJECT_DIR$/templates/scenes.txt" />
         <option value="$PROJECT_DIR$/chapters/chapter-one/scenes/scene-one.txt" />
         <option value="$PROJECT_DIR$/templates/scenes.md" />
-        <option value="$PROJECT_DIR$/main.rb" />
         <option value="$PROJECT_DIR$/ideas.md" />
+        <option value="$PROJECT_DIR$/utils.rb" />
+        <option value="$PROJECT_DIR$/main.rb" />
       </list>
     </option>
   </component>
@@ -136,28 +149,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="The-Depths-of-Europa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The-Depths-of-Europa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The-Depths-of-Europa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter-one" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scenes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,12 +312,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505683293688</updated>
-      <workItem from="1505683294894" duration="4004000" />
+      <workItem from="1505683294894" duration="5911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4004000" />
+    <option name="totallyTimeSpent" value="5911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,6 +414,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ideas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="20" column="131" lean-forward="true" selection-start-line="20" selection-start-column="131" selection-end-line="20" selection-end-column="131" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapters/chapter-one/scenes/scene-one.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -433,20 +435,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        <state relative-caret-position="1275">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ideas.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="20" selection-end-column="146" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/utils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

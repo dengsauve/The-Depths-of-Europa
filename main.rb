@@ -68,8 +68,10 @@ def main()
         puts scene.up
       when 'down', 'look down'
         puts scene.down
+      when 'help'
+        puts help
       else
-        puts 'wtf?'
+        puts "Command not understood \n\n"
     end
   end
 end

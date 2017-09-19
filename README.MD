@@ -2,7 +2,7 @@
 by Dennis Sauve
 
 ## Premise
-You're an astronaut traveling with a team of explorers to Europa
+You're an astronaut traveling with a team of explorers to Europa. On your way to Europa, disaster strikes and your crew dies. With no other course of action, you alone must complete the mission to Europa, in the hopes of finding the return module left on the surface from a previous supply mission.
 
 ## Style
 Text based RPG, classically styled. Ruby based now.

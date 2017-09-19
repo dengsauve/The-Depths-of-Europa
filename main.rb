@@ -1,9 +1,5 @@
 # by dennis sauve (c) 2017
 
-# load chapter 1, scene 1
-
-# Extend the Array class for readability in describing scenes
-
 require_relative 'utils'
 
 
@@ -14,11 +10,11 @@ def load_scene(chapter, scene)
 end
 
 def main()
-  # Splash should probably go here
   puts splash
   puts 'press enter to start'
   gets.chomp()
 
+  # load chapter 1, scene 1
   scene = load_scene('one', 'one')
   puts scene.describe
   while true
@@ -42,7 +38,17 @@ def main()
       when 'help'
         puts help
       else
-        puts "Command not understood \n\n"
+        contains = false
+        (8..scene.length).each do |num|
+          input.split().each do |command|
+            scene[num].split().include?(command) ? contains = true : contains = false
+          end
+          if contains
+            puts scene[num + 1], ''
+            break
+          end
+        end
+        puts "Command not understood \n\n" unless contains
     end
   end
 end

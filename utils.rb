@@ -1,3 +1,6 @@
+# by dennis sauve (c) 2017
+
+# Extend the Array class for readability in describing scenes
 class Array
 
   def describe

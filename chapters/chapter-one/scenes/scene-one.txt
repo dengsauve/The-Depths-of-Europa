@@ -1,4 +1,4 @@
-cockpit
+cockpit - Earth
 Launch day. 08:30. Cape Canaveral. You're sitting in the cockpit of the mark 8 shuttle, NASA's first manned spacecraft to journey beyond the asteroid belt. To your left sits Natasha, long time friend and a member of the 5 person exploration crew. In front of you, the radio indicator pulses, signalling that mission control wants to talk to you.
 Natasha looks at you, patiently waiting for you to answer Mission Control.
 The radio indicator pulses a soft blue on the control panel. Mission control has something to say.
@@ -6,3 +6,9 @@ The open fields and hills of cape canaveral are visible through the window to yo
 Your helmet prevents you from seeing behind you. It's a chair though.
 More controls, indicators, and switches than you know what to do with. Natasha is the primary pilot on this mission.
 The legs of your spacesuit are strapped down to the seat.
+[talk] natasha
+Natasha says: "It looks like mission control is finally ready for the launch. Better answer that radio."
+[answer | turn on | activate] radio
+Mission Control: "We show all systems clear. You can press the launch button at any time. God Speed!"
+[press | activate] launch button
+With a deafening roar, you're thrust back into your seat as the primary booster flares to life. You feel like the pressure can't get any greater, but as the shuttle begins to ascend, you find out you were wrong. Training didn't prepare you for this experience, and you black out...

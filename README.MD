@@ -8,6 +8,12 @@ You're an astronaut traveling with a team of explorers to Europa
 Text based RPG, classically styled. Ruby based now.
 
 ## Progress so far
+
+**September 18, 2017**
+* Created Scene Two
+* Moved Array Modification to utils.rb
+* Worked out scene 1 - 2 transition idea
+
 **September 17, 2017**
 * Created project
 * Set up initial program

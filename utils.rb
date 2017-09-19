@@ -1,3 +1,34 @@
+class Array
+
+  def describe
+    return self[1] + "\n"
+  end
+
+  def right
+    return self[2] + "\n"
+  end
+
+  def forward
+    return self[3] + "\n"
+  end
+
+  def left
+    return self[4] + "\n"
+  end
+
+  def back
+    return self[5] + "\n"
+  end
+
+  def up
+    return self[6] + "\n"
+  end
+
+  def down
+    return self[7] + "\n"
+  end
+
+end
 
 
 def splash

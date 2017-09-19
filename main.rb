@@ -6,37 +6,6 @@
 
 require_relative 'utils'
 
-class Array
-
-  def describe
-    return self[1] + "\n"
-  end
-
-  def right
-    return self[2] + "\n"
-  end
-
-  def forward
-    return self[3] + "\n"
-  end
-
-  def left
-    return self[4] + "\n"
-  end
-
-  def back
-    return self[5] + "\n"
-  end
-
-  def up
-    return self[6] + "\n"
-  end
-
-  def down
-    return self[7] + "\n"
-  end
-
-end
 
 def load_scene(chapter, scene)
   environment = []
@@ -53,7 +22,7 @@ def main()
   scene = load_scene('one', 'one')
   puts scene.describe
   while true
-    input = gets.chomp()
+    input = gets.chomp().downcase
     puts
     case input
       when 'right', 'look right'
@@ -68,6 +37,8 @@ def main()
         puts scene.up
       when 'down', 'look down'
         puts scene.down
+      when 'look'
+        puts "Look where?\n\n"
       when 'help'
         puts help
       else

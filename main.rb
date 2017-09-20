@@ -11,6 +11,7 @@ end
 def chapter_one_scene_one
   scene = load_scene('one', 'one')
   puts scene.describe
+
   while true
     r_value, input = basic_input(scene)
     puts
@@ -43,14 +44,44 @@ end
 def chapter_one_scene_two
   scene = load_scene('one', 'two')
   puts scene.describe
+  belted_in = true
 
   while true
-
+    r_value, input = basic_input(scene)
+    puts
+    puts r_value unless r_value == -1
+    if r_value == -1
+      if command_match(input, %w(undo remove the belt belts))
+        puts 'You remove the belts strapping you in. You are now free to leave the cabin.'
+        belted_in = false
+      elsif command_match(input, %w(leave the cabin))
+        if belted_in
+          puts '', 'You must undo your belt before you can move around.'
+        else
+          puts '', 'You leave the cabin and arrive in the general quarters.'
+          # transition to chapter one scene three
+          break
+        end
+      else
+        puts '', 'Command not understood'
+      end
+    end
   end
+
+  #chapter_one_scene_three
 end
 
 
-def main()
+def chapter_one_scene_three
+  scene = load_scene('one', 'three')
+  puts scene.describe
+
+  # input handling loop
+  
+end
+
+
+def main
   puts splash
   puts 'press enter to start'
   gets.chomp()
@@ -60,4 +91,4 @@ def main()
 end
 
 
-main()
+main

@@ -72,6 +72,8 @@ def basic_input(scene)
       return scene.up
     when 'down', 'look down'
       return scene.down
+    when 'look around'
+      return scene.describe
     when 'look'
       return "Look where?\n\n"
     when 'talk'
@@ -81,4 +83,8 @@ def basic_input(scene)
     else
       return -1, input
   end
+end
+
+def command_match(input, command)
+  return (input.split - command).empty?
 end

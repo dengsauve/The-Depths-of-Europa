@@ -6,9 +6,3 @@ The open fields and hills of cape canaveral are visible through the window to yo
 Your helmet prevents you from seeing behind you. It's a chair though.
 More controls, indicators, and switches than you know what to do with. Natasha is the primary pilot on this mission.
 The legs of your spacesuit are strapped down to the seat.
-talk to natasha
-Natasha says: "It looks like mission control is finally ready for the launch. Better answer that radio."
-answer turn on activate radio
-Mission Control: "We show all systems clear. You can press the launch button at any time. God Speed!"
-press activate launch button <chapter-one/scenes/scene-two.txt>
-With a deafening roar, you're thrust back into your seat as the primary booster flares to life. You feel like the pressure can't get any greater, but as the shuttle begins to ascend, you find out you were wrong. Training didn't prepare you for this experience, and you black out...

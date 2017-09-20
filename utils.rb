@@ -48,9 +48,37 @@ by Dennis Sauve
 '''
 end
 
+# Extended list of commands to be fleshed out as the game progresses
 def help
   return '''Commands:
 - look [ left | right | forward | back | up | down ]
 
 '''
+end
+
+
+def basic_input(scene)
+  input = gets.chomp().downcase
+  case input
+    when 'right', 'look right'
+      return scene.right
+    when 'forward', 'look forward'
+      return scene.forward
+    when 'left', 'look left'
+      return scene.left
+    when 'back', 'backward', 'look back', 'look backward'
+      return scene.back
+    when 'up', 'look up'
+      return scene.up
+    when 'down', 'look down'
+      return scene.down
+    when 'look'
+      return "Look where?\n\n"
+    when 'talk'
+      return "Talk to whom?\n\n"
+    when 'help'
+      return help
+    else
+      return -1, input
+  end
 end

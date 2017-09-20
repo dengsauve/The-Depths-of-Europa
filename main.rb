@@ -77,7 +77,7 @@ def chapter_one_scene_three
   puts scene.describe
 
   # input handling loop
-  
+
 end
 
 

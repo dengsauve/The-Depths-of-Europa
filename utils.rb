@@ -28,7 +28,7 @@ class Array
   end
 
   def down
-    return self[7] + "\n"
+    return self[7] + "\n\n"
   end
 
 end
@@ -60,6 +60,8 @@ end
 def basic_input(scene)
   input = gets.chomp().downcase
   case input
+    when ''
+      return "Type help for a list of commands\n\n"
     when 'right', 'look right'
       return scene.right
     when 'forward', 'look forward'
@@ -78,10 +80,16 @@ def basic_input(scene)
       return "Look where?\n\n"
     when 'talk'
       return "Talk to whom?\n\n"
+    when 'attack'
+      return "Attack what?\n\n"
     when 'help'
       return help
     else
-      return -1, input
+      if input.strip() == ''
+        return "Type help for a list of commands\n\n"
+      else
+        return -1, input
+      end
   end
 end
 

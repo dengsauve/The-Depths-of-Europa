@@ -48,6 +48,12 @@ by Dennis Sauve
 '''
 end
 
+
+# Opens text file based on chapter and scene, reads and returns array of file lines
+def load_scene(chapter, scene)
+  return File.open("chapters/chapter-#{chapter}/scenes/scene-#{scene}.txt").readlines()
+end
+
 # Extended list of commands to be fleshed out as the game progresses
 def help
   return '''Commands:

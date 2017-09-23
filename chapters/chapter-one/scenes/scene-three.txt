@@ -1,0 +1,8 @@
+general rec - shuttle
+You're in the general recreation area. All around you is the day to day living essentials - Workout Equipment, Kitchen, Exploration Gear, and the Science station are all here.
+The workout and science station. Treadmills beside centrifuges, the compact design is to accommodate the limited volume of the ship.
+The stasis room is ahead of you. You hear the other crew members chatting in there.
+The kitchen and gear-up area. Food and adventure, sounds like a hobbit's dream.
+The command cabin is behind you. Everything is left on autopilot.
+Above you are the shuttle bay doors, designed to open and expand the habitat into a two level facility. Gear and experiments can be setup once the ship lands.
+The floor is beneath you. What's your interest in what's below you?

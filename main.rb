@@ -4,7 +4,7 @@ require_relative 'utils'
 require_relative 'lib/chapter_one'
 
 
-def main
+if __FILE__ == $0
   puts splash
   puts 'press enter to start'
   gets
@@ -12,7 +12,8 @@ def main
   # load chapter 1, scene 1
   Chapter_One.chapter_one_scene_one
 
+  # load chapter 2, scene 1
+
+  # etc. etc. etc.
+
 end
-
-
-main

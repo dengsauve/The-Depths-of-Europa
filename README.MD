@@ -8,6 +8,13 @@ You're an astronaut traveling with a team of explorers to Europa. On your way to
 Text based RPG, classically styled. Ruby based now.
 
 ## Progress so far
+**September 24, 2017**
+* Created Scenes 3 + 4
+* Decided to make Chapters into modules
+* Moving away from text file level interactions, and hardcoding each scene.
+* When on the moon Europa, I'm planning on making more of an array map of chunks of land rather than hard coding everything in. This would allow me to make changes to the map on a whim.
+* Updated how commands are parsed.
+* Not to be forgotten, but on paper have created mapped layout of ship, crew manifest.
 
 **September 18, 2017**
 * Created Scene Two

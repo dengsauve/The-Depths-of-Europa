@@ -84,10 +84,10 @@ def basic_input(scene)
       return scene.describe
     when 'look'
       return "Look where?\n\n"
-    when 'talk'
+    when 'talk', 'talk to'
       return "Talk to whom?\n\n"
-    when 'talk to'
-      return "Talk to whom?\n\n"
+    when 'speak', 'speak to'
+      return "Speak to whom?\n\n"
     when 'attack'
       return "Attack what?\n\n"
     when 'help'

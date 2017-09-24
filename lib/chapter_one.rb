@@ -19,7 +19,7 @@ module Chapter_One
       if r_value == -1
         case input
           when 'talk to natasha', 'talk natasha'
-            "Natasha says: 'It looks like mission control is finally ready for the launch. Better answer that radio.'"
+            "Natasha: 'It looks like mission control is finally ready for the launch. Better answer that radio.'"
           else
             if (input.split - %w(answer turn on activate radio)).empty?
               puts "Mission Control: 'We show all systems clear. You can press the launch button at any time. God Speed!'"
@@ -113,14 +113,27 @@ module Chapter_One
       puts
       puts r_value unless r_value == -1
       if r_value == -1
-        if command_match(input, %w(talk with to natasha))
-          puts "You ready for the long nap? Next thing you know we'll be waking up in orbit around Europa",''
-        elsif command_match(input, %w(get in enter lay on stasis bed))
-          puts "You get into your stasis bed along with everyone. Julian gives the final order to engage the stasis field to the computer, and you slowly drift off to sleep."
+        if command_match(input, %w(speak talk with to natasha))
+          puts "Natasha: 'You ready for the long nap? Next thing you know we'll be waking up in orbit around Europa.'", ''
+
+        elsif command_match(input, %w(speak talk with to james))
+          puts "James: 'I'm pretty sure this bucket will get us to Europa and back. Sweet dreams laddie.'", ''
+
+        elsif command_match(input, %w(speak talk with to julian))
+          puts "Julian: 'It's incredible really. This journey will provide us with the first long term effects of the Bio-Stasis machine on humans in space. Nothing like this has ever been attempted. I'm sure it's completely safe though, heh heh.... not to worry.' *Julian looks a little worried*", ''
+
+        elsif command_match(input, %w(speak talk with to harry))
+          puts "Harry: 'I signed up for this mission to gain extensive experience working with our systems in the field, but that was before I knew we'd be sleeping most of the way here and back. Maybe I'll just dream of operations...'", ''
+
+        elsif command_match(input, %w(get in into go to enter lay on stasis bed))
+          puts 'You get into your stasis bed along with everyone. Julian gives the final order to engage the stasis field to the computer, and you slowly drift off to sleep.'
+          break
+
         else
           puts 'Command not understood', ''
         end
       end
     end
+  #transition to scene five.
   end
 end

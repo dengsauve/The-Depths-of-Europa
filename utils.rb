@@ -64,7 +64,7 @@ end
 
 
 def basic_input(scene)
-  input = gets.chomp().downcase
+  input = gets.chomp().rstrip.downcase
   case input
     when ''
       return "Type help for a list of commands\n\n"
@@ -86,10 +86,14 @@ def basic_input(scene)
       return "Look where?\n\n"
     when 'talk'
       return "Talk to whom?\n\n"
+    when 'talk to'
+      return "Talk to whom?\n\n"
     when 'attack'
       return "Attack what?\n\n"
     when 'help'
       return help
+    when 'exit', 'quit'
+      exit
     else
       if input.strip() == ''
         return "Type help for a list of commands\n\n"

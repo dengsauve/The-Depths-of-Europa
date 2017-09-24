@@ -105,6 +105,22 @@ module Chapter_One
   end
 
   def self.chapter_one_scene_four
+    scene = load_scene('one', 'four')
+    puts scene.describe
 
+    while true
+      r_value, input = basic_input(scene)
+      puts
+      puts r_value unless r_value == -1
+      if r_value == -1
+        if command_match(input, %w(talk with to natasha))
+          puts "You ready for the long nap? Next thing you know we'll be waking up in orbit around Europa",''
+        elsif command_match(input, %w(get in enter lay on stasis bed))
+          puts "You get into your stasis bed along with everyone. Julian gives the final order to engage the stasis field to the computer, and you slowly drift off to sleep."
+        else
+          puts 'Command not understood', ''
+        end
+      end
+    end
   end
 end

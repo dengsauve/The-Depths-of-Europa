@@ -69,3 +69,4 @@ Temporary Items
 /.idea *
 /public/system/*
 .rvmrc
+modules.xml
